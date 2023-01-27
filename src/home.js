@@ -23,12 +23,12 @@ export default function Home() {
   return (
     <>
       <FormControl style={{ width: "50%" }} size="small">
-        <InputLabel id="demo-simple-select-label">Age</InputLabel>
+        <InputLabel id="demo-simple-select-label">Sport Name</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           value={age}
-          label="Car Name"
+          label="Sport Name"
           onChange={handleChange}
         >
           <MenuItem value="WaterPolo">WaterPolo</MenuItem>
