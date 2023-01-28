@@ -1,7 +1,7 @@
 import "./styles.css";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
-import Home from "./home";
-import Grid from "./grid";
+import Home from "./components/home";
+import Grid from "./components/grid";
 
 export default function App() {
   return (
